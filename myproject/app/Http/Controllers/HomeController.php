@@ -21,6 +21,10 @@ use function Sodium\increment;
 
 class HomeController extends Controller
 {
+    public function __construct()
+    {
+        
+    }
    /* public function __construct(string $name)
     {
         dd($name);
